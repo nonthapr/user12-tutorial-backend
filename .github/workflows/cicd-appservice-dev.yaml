@@ -81,7 +81,7 @@ jobs:
     needs: [unitest,analyze]
     environment:
       name: dev
-      url: https://github.com/nonthapr/nonthapr-tutorial-backend/actions/workflows/dev-tutorial-backend-deploy.yml
+      url: https://github.com/nonthapr/user12-tutorial-backend/actions/workflows/dev-tutorial-backend-deploy.yml
 
     steps:
     - name: Repository Dispatch
